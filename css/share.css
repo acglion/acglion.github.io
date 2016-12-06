@@ -1,0 +1,115 @@
+/* reset */
+html, body {height: 100%;}
+* {box-sizing: border-box; font-family: "微软雅黑"; font-size: 12px;}
+html {background-color: #ffffff;color: #212121; }
+body {margin: 0;font-size: 14px;line-height: 1.5;font-family: Helvetica Neue, Helvetica, STHeiTi, sans-serif; }
+ul, ol, dl, dd, h1, h2, h3, h4, h5, h6, figure, form, fieldset, legend, input, textarea, button, p, blockquote, th, td, pre, xmp {margin: 0;padding: 0; }
+ul, ol, menu {list-style: none; }
+address, cite, dfn, em, i, optgroup, var {font-style: normal; }
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {display: block;}
+img{ display: block; border: none;}
+.clear:after { content:""; display:block; clear:both; }
+.wrap { width:1190px; margin:0 auto;}
+a{ color: #555; text-decoration: none;}
+a:hover{ color: #fd7b25;}
+
+
+
+/* head  */
+#head{ height:126px; color: #999999;border: 1px solid #e5e5e5;border-top-width: 0px;}
+#head .t {background-color: #f2f2f2;height: 26px; line-height: 26px;}
+#head .t_l{ width: 400px; float: left;}
+#head .t_l_bg{ background: url(../images/tubiao.png) no-repeat; padding-left: 20px; margin-right: 5px;}
+#head .t_l span{ font-size: 12px;}
+#head .t_right{width: 680px;float: right;}
+#head li { float: left; margin-left: 10px;}
+#head .t_right a {display: block; height: 26px; line-height: 26px;}
+#head ul i{position: absolute;background: url(../images/tubiao.png) no-repeat; width: 8px; height: 8px;  right: 4px; top: 10px;background-position: 0 -26px; }
+#head .li2{ height: 26px; overflow: hidden; position: relative;}
+#head .li2:hover{ height: 26px; overflow:visible;}
+#head .li3{ position: relative; height: 26px; overflow: hidden; margin: 0;}
+#head .li3:hover{ height: 26px; overflow:visible;}
+#head .active{ text-decoration: none;}
+#head li ul{ position: relative; width: 78px; }
+#head li ul:hover{ background: #fff; border: 1px solid #ccc; width: 78px; z-index: 999;}
+#head li img{ width: position: absolute; top: 11px; right: 0;}
+#head li li{ float: none;}
+#head li li a{ text-decoration: underline;}
+#head .li4 { background: url(../images/tubiao.png) no-repeat; background-position: -1px -43px; padding-left: 20px;}
+#head .li4 span{ color:#fd7b25;}
+#head .li5{ background: url(../images/tubiao.png) no-repeat;background-position: -1px -67px; padding-left: 20px;}
+#head h2{ float: left;}
+#head .b_r{ float: right; width:680px; height: 100px; line-height: 100px;}
+#head .b_r li{height: 70px; padding-top: 30px;}
+.search { padding-top: 2px; height:100px; width: 340px; float: right; position: relative;}
+.search .text{ background: none; border: none 0; height: 30px; outline: none; border: 2px solid #90c221; padding-left: 33px; background: url(../images/tubiao.png) no-repeat; background-position: 1px -350px; color: #ccc;}
+.search .but{ background: none;border: none 0; outline: none; position: relative; left: -4px; width: 80px; height: 30px;border: 2px solid #90c221; background: #90c221; cursor: pointer; color: #fff; }
+.search p { position: absolute; bottom: 10px; height: 20px; line-height: 20px;}
+.search p a margin-left: 5px;}
+/* nav */
+#nav {height: 35px; background: #90c31f;}
+#nav .wrap {position: relative;}
+#nav .nav1{ position:absolute; text-align: center; width:210px;height: 35px;line-height: 35px;color: #fff;font-size: 14px;background-color: #6d9d03;position: relative;cursor: default;}
+#nav .nav1 i{ position: absolute; top: 8px; left: 155px; width: 16px; height: 16px; background: url(../images/tubiao.png) no-repeat; background-position: 0 -120px;}
+/*******************  2级导航开始 lv ***************************/
+#nav .lv { position: absolute; top: 35px; background: #fff;}
+#nav .lv li{ width: 210px; height:46px;border-bottom: 1px dotted #90c000; position: relative;}
+#nav .lv h3{ float: left; width: 105px; height: 46px; margin-left: 10px;}
+#nav .lv i{ float: left;width: 30px;height: 30px;overflow: hidden;margin: 10px 5px 0px 13px;background:url(../images/tubiao.png) no-repeat;}
+#nav .lv .level_0 { background-position: 0 -419px;}
+#nav .lv .level_1 { background-position: 0 -458px;}
+#nav .lv .level_2 { background-position: 0 -498px;}
+#nav .lv .level_3 { background-position: 0 -537px;}
+#nav .lv .level_4 { background-position: 0 -577px;}
+#nav .lv .level_5 { background-position: 0 -617px;}
+#nav .lv .level_6 { background-position: 0 -651px;}
+#nav .lv h3{ line-height: 46px;}
+#nav .lv span{ position: absolute; top: 20px; right: 50px; width: 8px; height: 10px; background: url(../images/tubiao.png) no-repeat; background-position: 0 -698px;}
+#nav .nav2{ position:absolute;left: 210px; top: 0; background: #90c31f;height: 34px;}
+#nav .nav2 li{ float: left;}
+.nav2 a{ display: block; padding: 0 34px; height: 34px; line-height: 36px; font-weight: 800; color: #fff; font-weight: 800;}
+.nav2 a:hover , .nav2 .active{ background: #900000;}
+.lv li:hover{ border: 2px solid #d7b25; }
+
+#nav .lv .li_border {border: none; width: 210px; height:46px ;border: 1px solid #90c31f; border-right: #fff solid 1px; overflow: hidden;}
+/*******************  3级导航开始 lv li ***************************/
+.tag{z-index: 9999;background: #fff; display: none; position: absolute; top: 35px; left: 210px; width: 765px; height: 320px; border: 1px solid #90c31f; overflow: hidden;}
+.tag li {width: 700px; height: 280px; position: relative;}
+.tag div { padding: 22px 0 0 44px;}
+.tag dl{margin-bottom: 15px; overflow: hidden;}
+.tag dt{float: left; width: 50px;}
+.tag dd {float: left; width: 350px; border-bottom: 1px dotted #90c31f; padding-bottom: 5px;}
+.tag a { float: left; display: block; height:14px; padding: 0 8px; border-left: 1px solid #90c31f; margin-bottom: 6px;}
+.tag img { position: absolute; right: 10px; top: 10px; height: 250px; width: 200px;}
+.tag .hot{color: #fd7b25; ;}
+
+
+/* footer  */
+#footer{background: #f0f0f0;}
+#footer .wrap{ border-top: 2px solid #e0e0e0; text-align: center; padding-top: 18px;}
+#footer p a { color: #999;}
+#footer p a:hover { color: #fd7b25;}
+#footer img{ float: left;}
+#footer p {  height: 26px; line-height: 26px; color: #999; }
+#footer .wrap .wrap{  margin: 0 auto;width: 430px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
